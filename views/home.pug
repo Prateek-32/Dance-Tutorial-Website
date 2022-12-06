@@ -1,0 +1,21 @@
+extends base.pug
+block scripts
+  script(src='/static/index.js')
+block style 
+    style
+      include ../static/style.css
+block content
+    section#introSection
+        div Welcome to Prateek's Dance Academy
+        div.small Eat Sleep Dance Repeat
+    section#missionSection
+        h1 Our Mission
+        div.card
+            h3 Dance Forms 
+        div.card
+            h3 Dance the Way you like
+        div.card
+            h3 Expert Teaching
+             
+    section#sponsorsSection
+        h2 Our Sponsors
